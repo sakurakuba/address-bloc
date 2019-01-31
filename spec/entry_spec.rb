@@ -12,7 +12,6 @@
           expect(entry.name).to eq('Ada Lovelace')
      end
 
-
      it "responds to phone number" do
            expect(entry).to respond_to(:phone_number)
      end
